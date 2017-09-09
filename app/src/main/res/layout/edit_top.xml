@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize">
+
+    <Button
+        android:id="@+id/bt_back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/bt_back"
+        android:text="2017年1月1日"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/date_text"
+        android:text="晚上10:00"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp"
+        android:layout_marginLeft="4dp"/>
+
+    <ImageButton
+        android:id="@+id/menu_open"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_more_vert_black_24dp" />
+    <TextView
+        android:id="@+id/clock_text"
+        android:visibility="gone"
+        android:layout_toRightOf="@id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/clock"
+        android:layout_centerVertical="true"
+        android:textSize="12sp"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/text_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="字数"
+        android:layout_toLeftOf="@id/menu_open"
+        android:textSize="10sp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

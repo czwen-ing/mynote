@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/BaseActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/ChangeSqlite.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/Date.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/DateLine.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/DrawLine.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/EditActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/Notepad.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/NotepadAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/SqliteHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/TextViewLine.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/newNoteBook/src/main/java/com/android/newnotebook/WriteActivity.java" charset="GBK" />
+  </component>
+</project>

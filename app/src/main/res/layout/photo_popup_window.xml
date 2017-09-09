@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="拍照"
+        android:gravity="center"
+        android:background="@drawable/layout_pressed_bg"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrayBg"/>
+    <TextView
+        android:id="@+id/choose_album"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="相册"
+        android:gravity="center"
+        android:background="@drawable/layout_pressed_bg"/>
+</LinearLayout>

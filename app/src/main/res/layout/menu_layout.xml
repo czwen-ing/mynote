@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/menu_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/close" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorGrayBg" />
+
+    <LinearLayout
+        android:id="@+id/remind_clock"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/layout_pressed_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:text="提醒"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <Switch
+            android:id="@+id/remind_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:clickable="false"/>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorGrayBg" />
+
+
+    <TextView
+        android:id="@+id/image_share"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/layout_pressed_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:text="生成图片分享"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorGrayBg" />
+
+
+    <TextView
+        android:id="@+id/send_to_qq"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/layout_pressed_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:text="发送到QQ"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorGrayBg" />
+
+
+    <TextView
+        android:id="@+id/send_to_desktop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/layout_pressed_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:text="发送到桌面"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+</LinearLayout>

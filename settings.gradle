@@ -1,0 +1,3 @@
+include ':app', ':library', ':supertextviewtest', ':actionmodetest', ':Guillotinelibrary', ':GuillotineMenu', ':RichEditor'
+include ':notes'
+include ':newNoteBook'

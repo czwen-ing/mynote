@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/moveto"
+        android:title="移动到"
+        android:id="@+id/action_mode_moveto"
+        app:showAsAction="always"/>
+    <item android:icon="@drawable/edit_delete"
+        android:title="删除"
+        android:id="@+id/action_mode_delete"
+        app:showAsAction="always"/>
+</menu>

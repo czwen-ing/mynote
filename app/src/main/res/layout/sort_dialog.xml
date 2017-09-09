@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="选择排序方式"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrayBg"/>
+    <RadioGroup
+        android:id="@+id/sort_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_create"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="按创建日期"
+            android:drawablePadding="5dp"
+            android:button="@android:color/transparent"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/sort_item_selector"
+            android:textColor="@drawable/sort_color_selector"
+            android:background="@drawable/layout_pressed_bg"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrayBg"/>
+        <RadioButton
+            android:id="@+id/rb_modified"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/layout_pressed_bg"
+            android:button="@android:color/transparent"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/sort_item_selector"
+            android:paddingLeft="20dp"
+            android:text="按编辑日期"
+            android:textColor="@drawable/sort_color_selector" />
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrayBg"/>
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_pressed_bg"
+        android:text="取消"/>
+</LinearLayout>

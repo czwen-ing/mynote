@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GuillotineMenu/GuillotineMenu.iml" filepath="$PROJECT_DIR$/GuillotineMenu/GuillotineMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Guillotinelibrary/Guillotinelibrary.iml" filepath="$PROJECT_DIR$/Guillotinelibrary/Guillotinelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyNote.iml" filepath="$PROJECT_DIR$/MyNote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RichEditor/RichEditor.iml" filepath="$PROJECT_DIR$/RichEditor/RichEditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actionmodetest/actionmodetest.iml" filepath="$PROJECT_DIR$/actionmodetest/actionmodetest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newNoteBook/newNoteBook.iml" filepath="$PROJECT_DIR$/newNoteBook/newNoteBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notes/notes.iml" filepath="$PROJECT_DIR$/notes/notes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supertextviewtest/supertextviewtest.iml" filepath="$PROJECT_DIR$/supertextviewtest/supertextviewtest.iml" />
+    </modules>
+  </component>
+</project>
